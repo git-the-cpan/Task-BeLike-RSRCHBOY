@@ -1,0 +1,81 @@
+NAME
+    Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
+
+VERSION
+    version 0.001
+
+TASK CONTENTS
+  CPAN/GitHub Tools
+   perl 5.12.1
+   App::cpanminus
+   App::cpanoutdated
+   App::gh
+   Dist::Zilla 4
+   Dist::Zilla::PluginBundle::RSRCHBOY
+  DB bits
+   DBD::SQLite 1.31
+   DBIx::Class 0.08192
+   DBIx::Class::Schema::Loader 0.07010
+   DateTime::Format::DBI
+   DateTime::Format::MySQL
+   DateTime::Format::Pg
+   DateTime::Format::DB2
+  Hygiene
+   common::sense
+   namespace::autoclean
+   Perl::Tidy
+   Perl::Critic
+  Mooseish bits
+   Any::Moose
+   Class::Method::Modifiers
+   Role::Basic
+   Moose 2
+   MooseX::AlwaysCoerce
+   MooseX::App::Cmd
+   MooseX::AttributeShortcuts 0.005
+   MooseX::AutoDestruct 0.007
+   MooseX::Types
+   MooseX::Types::Path::Class
+   MooseX::Types::Perl
+  Web
+   Catalyst::Runtime 5.9
+   Catalyst::Devel
+   Catalyst::Controller::REST
+   Catalyst::Model::DBIC::Schema
+   Catalyst::View::TT
+   Task::Catalyst
+   Dancer
+   Plack::Middleware::Debug
+   Plack::Middleware::SetAccept
+  Other Libraries I Use
+   opts 0.05
+    Version 0.05 required because: for simple one-off scripts
+
+   Config::GitLike
+   DateTime
+   File::chdir
+   File::Slurp 9999.18
+   Path::Class
+   Plack
+   Readonly
+   Sub::Install
+   Starman
+   Term::ReadLine::Gnu
+   Try::Tiny
+   V
+  XS-speedups
+    Optional modules that make things faster when a compiler is available.
+
+   Readonly::XS
+  People I wanna belike!
+   Task::BeLike::RJBS 20110324.000
+AUTHOR
+    Chris Weyl <cweyl@alumni.drew.edu>
+
+COPYRIGHT AND LICENSE
+    This software is Copyright (c) 2011 by Chris Weyl.
+
+    This is free software, licensed under:
+
+      The GNU Lesser General Public License, Version 2.1, February 1999
+
