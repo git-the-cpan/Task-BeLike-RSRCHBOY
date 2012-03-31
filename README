@@ -2,73 +2,61 @@ NAME
     Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 VERSION
-    version 0.001
+    version 0.002
 
 TASK CONTENTS
   CPAN/GitHub Tools
-   perl 5.12.1
    App::cpanminus
    App::cpanoutdated
    App::gh
    Dist::Zilla 4
    Dist::Zilla::PluginBundle::RSRCHBOY
+   Git::CPAN::Patch
   DB bits
    DBD::SQLite 1.31
    DBIx::Class 0.08192
    DBIx::Class::Schema::Loader 0.07010
+  Date/Time handling
+   DateTime
+   DateTime::Format::DB2
    DateTime::Format::DBI
    DateTime::Format::MySQL
    DateTime::Format::Pg
-   DateTime::Format::DB2
   Hygiene
    common::sense
    namespace::autoclean
    Perl::Tidy
    Perl::Critic
-  Mooseish bits
+  Class bits
    Any::Moose
    Class::Method::Modifiers
    Role::Basic
-   Moose 2
-   MooseX::AlwaysCoerce
+   Reindeer 0.008
    MooseX::App::Cmd
-   MooseX::AttributeShortcuts 0.005
    MooseX::AutoDestruct 0.007
-   MooseX::Types
-   MooseX::Types::Path::Class
-   MooseX::Types::Perl
-  Web
-   Catalyst::Runtime 5.9
-   Catalyst::Devel
-   Catalyst::Controller::REST
-   Catalyst::Model::DBIC::Schema
-   Catalyst::View::TT
-   Task::Catalyst
-   Dancer
-   Plack::Middleware::Debug
-   Plack::Middleware::SetAccept
-  Other Libraries I Use
-   opts 0.05
-    Version 0.05 required because: for simple one-off scripts
+   MooseX::TrackDirty::Attributes 2.000
+    Version 2.000 required because: native traits support
 
-   Config::GitLike
-   DateTime
+   MooseX::Types::Perl
+  Other Libraries I Use
+   aliased
+   opts 0.05
+   Capture::Tiny
+   Config::JFDI
    File::chdir
    File::Slurp 9999.18
    Path::Class
-   Plack
    Readonly
+   Readonly::XS
+   Smart::Args
+   Smart::Comments
    Sub::Install
-   Starman
-   Term::ReadLine::Gnu
+   Sub::Exporter
    Try::Tiny
    V
-  XS-speedups
-    Optional modules that make things faster when a compiler is available.
+SEE ALSO
+    Task::BeLike::RSRCHBOY::Web
 
-   Readonly::XS
-  People I wanna belike!
-   Task::BeLike::RJBS 20110324.000
 AUTHOR
     Chris Weyl <cweyl@alumni.drew.edu>
 

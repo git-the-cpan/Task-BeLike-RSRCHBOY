@@ -9,8 +9,8 @@ README
 dist.ini
 lib/Task/BeLike/RSRCHBOY.pm
 t/00-compile.t
-t/00-load.t
-t/000-report-versions.t
+t/000-report-versions-tiny.t
+t/author-pod-spell.t
 t/release-consistent-version.t
 t/release-eol.t
 t/release-has-version.t

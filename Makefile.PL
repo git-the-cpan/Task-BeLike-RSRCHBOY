@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.012001;
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -12,13 +12,12 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Modules RSRCHBOY uses!",
   "AUTHOR" => "Chris Weyl <cweyl\@alumni.drew.edu>",
   "BUILD_REQUIRES" => {
-    "Carp" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
-    "Scalar::Util" => 0,
-    "Test::More" => "0.94",
-    "Test::UseAllModules" => 0,
-    "strict" => 0
+    "Test::More" => "0.88",
+    "Test::Requires" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -32,17 +31,12 @@ my %WriteMakefileArgs = (
     "App::cpanminus" => 0,
     "App::cpanoutdated" => 0,
     "App::gh" => 0,
-    "Catalyst::Controller::REST" => 0,
-    "Catalyst::Devel" => 0,
-    "Catalyst::Model::DBIC::Schema" => 0,
-    "Catalyst::Runtime" => "5.9",
-    "Catalyst::View::TT" => 0,
+    "Capture::Tiny" => 0,
     "Class::Method::Modifiers" => 0,
-    "Config::GitLike" => 0,
+    "Config::JFDI" => 0,
     "DBD::SQLite" => "1.31",
     "DBIx::Class" => "0.08192",
     "DBIx::Class::Schema::Loader" => "0.07010",
-    "Dancer" => 0,
     "DateTime" => 0,
     "DateTime::Format::DB2" => 0,
     "DateTime::Format::DBI" => 0,
@@ -52,36 +46,30 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::PluginBundle::RSRCHBOY" => 0,
     "File::Slurp" => "9999.18",
     "File::chdir" => 0,
-    "Moose" => 2,
-    "MooseX::AlwaysCoerce" => 0,
+    "Git::CPAN::Patch" => 0,
     "MooseX::App::Cmd" => 0,
-    "MooseX::AttributeShortcuts" => "0.005",
     "MooseX::AutoDestruct" => "0.007",
-    "MooseX::Types" => 0,
-    "MooseX::Types::Path::Class" => 0,
+    "MooseX::TrackDirty::Attributes" => "2.000",
     "MooseX::Types::Perl" => 0,
     "Path::Class" => 0,
     "Perl::Critic" => 0,
     "Perl::Tidy" => 0,
-    "Plack" => 0,
-    "Plack::Middleware::Debug" => 0,
-    "Plack::Middleware::SetAccept" => 0,
     "Readonly" => 0,
     "Readonly::XS" => 0,
+    "Reindeer" => "0.008",
     "Role::Basic" => 0,
-    "Starman" => 0,
+    "Smart::Args" => 0,
+    "Smart::Comments" => 0,
+    "Sub::Exporter" => 0,
     "Sub::Install" => 0,
-    "Task::BeLike::RJBS" => "20110324.000",
-    "Task::Catalyst" => 0,
-    "Term::ReadLine::Gnu" => 0,
     "Try::Tiny" => 0,
     "V" => 0,
+    "aliased" => 0,
     "common::sense" => 0,
     "namespace::autoclean" => 0,
-    "opts" => "0.05",
-    "warnings" => 0
+    "opts" => "0.05"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
