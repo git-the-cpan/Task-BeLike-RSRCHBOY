@@ -2,7 +2,7 @@ NAME
     Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 VERSION
-    version 0.002
+    version 0.003
 
 TASK CONTENTS
   CPAN/GitHub Tools
@@ -16,6 +16,7 @@ TASK CONTENTS
    DBD::SQLite 1.31
    DBIx::Class 0.08192
    DBIx::Class::Schema::Loader 0.07010
+   DBIx::Class::Migration
   Date/Time handling
    DateTime
    DateTime::Format::DB2
@@ -28,7 +29,6 @@ TASK CONTENTS
    Perl::Tidy
    Perl::Critic
   Class bits
-   Any::Moose
    Class::Method::Modifiers
    Role::Basic
    Reindeer 0.008
@@ -38,6 +38,9 @@ TASK CONTENTS
     Version 2.000 required because: native traits support
 
    MooseX::Types::Perl
+  Testing
+   Test::Moose::More 0.009
+   Test::Routine 0.015
   Other Libraries I Use
    aliased
    opts 0.05
@@ -46,8 +49,6 @@ TASK CONTENTS
    File::chdir
    File::Slurp 9999.18
    Path::Class
-   Readonly
-   Readonly::XS
    Smart::Args
    Smart::Comments
    Sub::Install

@@ -48,7 +48,6 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
-eval { $v .= pmver('Any::Moose','any version') };
 eval { $v .= pmver('App::cpanminus','any version') };
 eval { $v .= pmver('App::cpanoutdated','any version') };
 eval { $v .= pmver('App::gh','any version') };
@@ -57,6 +56,7 @@ eval { $v .= pmver('Class::Method::Modifiers','any version') };
 eval { $v .= pmver('Config::JFDI','any version') };
 eval { $v .= pmver('DBD::SQLite','1.31') };
 eval { $v .= pmver('DBIx::Class','0.08192') };
+eval { $v .= pmver('DBIx::Class::Migration','any version') };
 eval { $v .= pmver('DBIx::Class::Schema::Loader','0.07010') };
 eval { $v .= pmver('DateTime','any version') };
 eval { $v .= pmver('DateTime::Format::DB2','any version') };
@@ -78,16 +78,15 @@ eval { $v .= pmver('MooseX::Types::Perl','any version') };
 eval { $v .= pmver('Path::Class','any version') };
 eval { $v .= pmver('Perl::Critic','any version') };
 eval { $v .= pmver('Perl::Tidy','any version') };
-eval { $v .= pmver('Readonly','any version') };
-eval { $v .= pmver('Readonly::XS','any version') };
 eval { $v .= pmver('Reindeer','0.008') };
 eval { $v .= pmver('Role::Basic','any version') };
 eval { $v .= pmver('Smart::Args','any version') };
 eval { $v .= pmver('Smart::Comments','any version') };
 eval { $v .= pmver('Sub::Exporter','any version') };
 eval { $v .= pmver('Sub::Install','any version') };
+eval { $v .= pmver('Test::Moose::More','0.009') };
 eval { $v .= pmver('Test::More','0.88') };
-eval { $v .= pmver('Test::Requires','any version') };
+eval { $v .= pmver('Test::Routine','0.015') };
 eval { $v .= pmver('Try::Tiny','any version') };
 eval { $v .= pmver('V','any version') };
 eval { $v .= pmver('aliased','any version') };

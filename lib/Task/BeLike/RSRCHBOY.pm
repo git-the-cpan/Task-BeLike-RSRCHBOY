@@ -9,7 +9,7 @@
 #
 package Task::BeLike::RSRCHBOY;
 {
-  $Task::BeLike::RSRCHBOY::VERSION = '0.002';
+  $Task::BeLike::RSRCHBOY::VERSION = '0.003';
 }
 
 # ABSTRACT: Modules RSRCHBOY uses!
@@ -26,7 +26,7 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 TASK CONTENTS
 
@@ -52,6 +52,8 @@ version 0.002
 
 =head3 L<DBIx::Class::Schema::Loader> 0.07010
 
+=head3 L<DBIx::Class::Migration>
+
 =head2 Date/Time handling
 
 =head3 L<DateTime>
@@ -76,8 +78,6 @@ version 0.002
 
 =head2 Class bits
 
-=head3 L<Any::Moose>
-
 =head3 L<Class::Method::Modifiers>
 
 =head3 L<Role::Basic>
@@ -94,6 +94,12 @@ Version 2.000 required because: native traits support
 
 =head3 L<MooseX::Types::Perl>
 
+=head2 Testing
+
+=head3 L<Test::Moose::More> 0.009
+
+=head3 L<Test::Routine> 0.015
+
 =head2 Other Libraries I Use
 
 =head3 L<aliased>
@@ -109,10 +115,6 @@ Version 2.000 required because: native traits support
 =head3 L<File::Slurp> 9999.18
 
 =head3 L<Path::Class>
-
-=head3 L<Readonly>
-
-=head3 L<Readonly::XS>
 
 =head3 L<Smart::Args>
 
