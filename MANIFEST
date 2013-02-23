@@ -6,6 +6,8 @@ META.json
 META.yml
 Makefile.PL
 README
+SIGNATURE
+cpanfile
 dist.ini
 lib/Task/BeLike/RSRCHBOY.pm
 t/00-compile.t
@@ -17,6 +19,6 @@ t/release-has-version.t
 t/release-no-smart-comments.t
 t/release-no-tabs.t
 t/release-pod-coverage.t
+t/release-pod-linkcheck.t
 t/release-pod-syntax.t
-t/release-portability.t
 t/task-bogus.t

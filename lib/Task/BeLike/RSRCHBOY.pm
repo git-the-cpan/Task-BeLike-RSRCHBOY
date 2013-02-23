@@ -9,14 +9,14 @@
 #
 package Task::BeLike::RSRCHBOY;
 {
-  $Task::BeLike::RSRCHBOY::VERSION = '0.003';
+  $Task::BeLike::RSRCHBOY::VERSION = '0.004';
 }
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
 !!42;
 
-
+__END__
 
 =pod
 
@@ -26,17 +26,25 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 TASK CONTENTS
 
 =head2 CPAN/GitHub Tools
+
+=head3 L<local::lib>
+
+=head3 L<Pod::Cpandoc>
 
 =head3 L<App::cpanminus>
 
 =head3 L<App::cpanoutdated>
 
 =head3 L<App::gh>
+
+=head3 L<CPAN::Mini>
+
+=head3 L<CPAN::Mini::Inject>
 
 =head3 L<Dist::Zilla> 4
 
@@ -82,11 +90,13 @@ version 0.003
 
 =head3 L<Role::Basic>
 
-=head3 L<Reindeer> 0.008
+=head3 L<Reindeer> 0.016
 
 =head3 L<MooseX::App::Cmd>
 
 =head3 L<MooseX::AutoDestruct> 0.007
+
+=head3 L<MooseX::RelatedClasses>
 
 =head3 L<MooseX::TrackDirty::Attributes> 2.000
 
@@ -96,13 +106,29 @@ Version 2.000 required because: native traits support
 
 =head2 Testing
 
-=head3 L<Test::Moose::More> 0.009
+=head3 L<Directory::Scratch>
+
+=head3 L<Test::Moose::More> 0.017
 
 =head3 L<Test::Routine> 0.015
 
+=head3 L<Test::TempDir>
+
 =head2 Other Libraries I Use
 
+=head3 L<autodie> 0.16
+
+=head3 L<autobox::Core>
+
+=head3 L<autobox::dump>
+
+=head3 L<autobox::JSON>
+
+=head3 L<Moose::Autobox>
+
 =head3 L<aliased>
+
+=head3 L<lib::if::dev>
 
 =head3 L<opts> 0.05
 
@@ -126,7 +152,13 @@ Version 2.000 required because: native traits support
 
 =head3 L<Try::Tiny>
 
+=head2 Helpers
+
+=head3 L<Regexp::Debugger>
+
 =head3 L<V>
+
+=for :stopwords autoboxing
 
 =head1 SEE ALSO
 
@@ -145,7 +177,3 @@ This is free software, licensed under:
   The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut
-
-
-__END__
-

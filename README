@@ -2,13 +2,17 @@ NAME
     Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 VERSION
-    version 0.003
+    version 0.004
 
 TASK CONTENTS
   CPAN/GitHub Tools
+   local::lib
+   Pod::Cpandoc
    App::cpanminus
    App::cpanoutdated
    App::gh
+   CPAN::Mini
+   CPAN::Mini::Inject
    Dist::Zilla 4
    Dist::Zilla::PluginBundle::RSRCHBOY
    Git::CPAN::Patch
@@ -31,18 +35,27 @@ TASK CONTENTS
   Class bits
    Class::Method::Modifiers
    Role::Basic
-   Reindeer 0.008
+   Reindeer 0.016
    MooseX::App::Cmd
    MooseX::AutoDestruct 0.007
+   MooseX::RelatedClasses
    MooseX::TrackDirty::Attributes 2.000
     Version 2.000 required because: native traits support
 
    MooseX::Types::Perl
   Testing
-   Test::Moose::More 0.009
+   Directory::Scratch
+   Test::Moose::More 0.017
    Test::Routine 0.015
+   Test::TempDir
   Other Libraries I Use
+   autodie 0.16
+   autobox::Core
+   autobox::dump
+   autobox::JSON
+   Moose::Autobox
    aliased
+   lib::if::dev
    opts 0.05
    Capture::Tiny
    Config::JFDI
@@ -54,6 +67,8 @@ TASK CONTENTS
    Sub::Install
    Sub::Exporter
    Try::Tiny
+  Helpers
+   Regexp::Debugger
    V
 SEE ALSO
     Task::BeLike::RSRCHBOY::Web
