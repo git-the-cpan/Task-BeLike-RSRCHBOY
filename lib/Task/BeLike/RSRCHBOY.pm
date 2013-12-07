@@ -8,9 +8,14 @@
 #   The GNU Lesser General Public License, Version 2.1, February 1999
 #
 package Task::BeLike::RSRCHBOY;
-{
-  $Task::BeLike::RSRCHBOY::VERSION = '0.004';
+BEGIN {
+  $Task::BeLike::RSRCHBOY::AUTHORITY = 'cpan:RSRCHBOY';
 }
+{
+  $Task::BeLike::RSRCHBOY::VERSION = '0.005';
+}
+# git description: 0.004-15-g45fb0f9
+
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
@@ -20,13 +25,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 TASK CONTENTS
 
@@ -36,9 +43,9 @@ version 0.004
 
 =head3 L<Pod::Cpandoc>
 
-=head3 L<App::cpanminus>
-
 =head3 L<App::cpanoutdated>
+
+=head3 L<App::cpanminus::reporter>
 
 =head3 L<App::gh>
 
@@ -46,13 +53,13 @@ version 0.004
 
 =head3 L<CPAN::Mini::Inject>
 
-=head3 L<Dist::Zilla> 4
-
-=head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
+=head3 L<Task::CPAN::Reporter>
 
 =head3 L<Git::CPAN::Patch>
 
 =head2 DB bits
+
+=head3 L<App::AltSQL>
 
 =head3 L<DBD::SQLite> 1.31
 
@@ -86,9 +93,9 @@ version 0.004
 
 =head2 Class bits
 
-=head3 L<Class::Method::Modifiers>
+=head3 L<Class::Method::Modifiers::Fast>
 
-=head3 L<Role::Basic>
+=head3 L<Class::Method::Modifiers>
 
 =head3 L<Reindeer> 0.016
 
@@ -98,15 +105,19 @@ version 0.004
 
 =head3 L<MooseX::RelatedClasses>
 
-=head3 L<MooseX::TrackDirty::Attributes> 2.000
-
-Version 2.000 required because: native traits support
-
 =head3 L<MooseX::Types::Perl>
+
+=head3 L<Moo>
+
+=head3 L<MooX::Types::MooseLike>
+
+=head3 L<MooX::Cmd>
 
 =head2 Testing
 
 =head3 L<Directory::Scratch>
+
+=head3 L<TAP::Harness::Restricted>
 
 =head3 L<Test::Moose::More> 0.017
 
@@ -116,7 +127,7 @@ Version 2.000 required because: native traits support
 
 =head2 Other Libraries I Use
 
-=head3 L<autodie> 0.16
+=head3 L<autodie> 2.22
 
 =head3 L<autobox::Core>
 
@@ -124,7 +135,7 @@ Version 2.000 required because: native traits support
 
 =head3 L<autobox::JSON>
 
-=head3 L<Moose::Autobox>
+=head3 L<autobox::Colors>
 
 =head3 L<aliased>
 
@@ -135,6 +146,8 @@ Version 2.000 required because: native traits support
 =head3 L<Capture::Tiny>
 
 =head3 L<Config::JFDI>
+
+=head3 L<Carp::Always>
 
 =head3 L<File::chdir>
 
@@ -162,7 +175,9 @@ Version 2.000 required because: native traits support
 
 =head1 SEE ALSO
 
-L<Task::BeLike::RSRCHBOY::Web>
+Dist::Zilla::PluginBundle::RSRCHBOY
+
+Task::BeLike::RSRCHBOY::Web
 
 =head1 AUTHOR
 
