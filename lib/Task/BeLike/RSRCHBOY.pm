@@ -8,14 +8,9 @@
 #   The GNU Lesser General Public License, Version 2.1, February 1999
 #
 package Task::BeLike::RSRCHBOY;
-BEGIN {
-  $Task::BeLike::RSRCHBOY::AUTHORITY = 'cpan:RSRCHBOY';
-}
-{
-  $Task::BeLike::RSRCHBOY::VERSION = '0.005';
-}
-# git description: 0.004-15-g45fb0f9
-
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: 0.005-11-ge5ef2c9
+$Task::BeLike::RSRCHBOY::VERSION = '0.006';
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
@@ -33,7 +28,7 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 TASK CONTENTS
 
@@ -42,6 +37,8 @@ version 0.005
 =head3 L<local::lib>
 
 =head3 L<Pod::Cpandoc>
+
+=head3 L<App::cpanminus::reporter>
 
 =head3 L<App::cpanoutdated>
 
@@ -55,7 +52,7 @@ version 0.005
 
 =head3 L<Task::CPAN::Reporter>
 
-=head3 L<Git::CPAN::Patch>
+=head3 L<Pod::Cpandoc>
 
 =head2 DB bits
 
@@ -86,6 +83,8 @@ version 0.005
 =head3 L<common::sense>
 
 =head3 L<namespace::autoclean>
+
+=head3 L<strictures>
 
 =head3 L<Perl::Tidy>
 
@@ -123,9 +122,9 @@ version 0.005
 
 =head3 L<Test::Routine> 0.015
 
-=head3 L<Test::TempDir>
+=head3 L<Test::TempDir::Tiny>
 
-=head2 Other Libraries I Use
+=head2 autobox
 
 =head3 L<autodie> 2.22
 
@@ -137,21 +136,25 @@ version 0.005
 
 =head3 L<autobox::Colors>
 
+=head2 Other Libraries I Use
+
 =head3 L<aliased>
 
 =head3 L<lib::if::dev>
 
 =head3 L<opts> 0.05
 
+=head3 L<App::Cmd>
+
 =head3 L<Capture::Tiny>
+
+=head3 L<Carp::Always::Color>
 
 =head3 L<Config::JFDI>
 
 =head3 L<Carp::Always>
 
 =head3 L<File::chdir>
-
-=head3 L<File::Slurp> 9999.18
 
 =head3 L<Path::Class>
 
@@ -169,9 +172,17 @@ version 0.005
 
 =head3 L<Regexp::Debugger>
 
+=head3 L<L>
+
 =head3 L<V>
 
-=for :stopwords autoboxing
+=head2 CPAN-ish Development
+
+=head3 L<Devel::Confess>
+
+=head3 L<Dist::Zilla::App::Command::issues>
+
+=head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
 
 =head1 SEE ALSO
 

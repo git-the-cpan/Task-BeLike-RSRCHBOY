@@ -49,6 +49,7 @@ sub pmver {
 }
 
 eval { $v .= pmver('App::AltSQL','any version') };
+eval { $v .= pmver('App::Cmd','any version') };
 eval { $v .= pmver('App::cpanminus::reporter','any version') };
 eval { $v .= pmver('App::cpanoutdated','any version') };
 eval { $v .= pmver('App::gh','any version') };
@@ -56,6 +57,7 @@ eval { $v .= pmver('CPAN::Mini','any version') };
 eval { $v .= pmver('CPAN::Mini::Inject','any version') };
 eval { $v .= pmver('Capture::Tiny','any version') };
 eval { $v .= pmver('Carp::Always','any version') };
+eval { $v .= pmver('Carp::Always::Color','any version') };
 eval { $v .= pmver('Class::Method::Modifiers','any version') };
 eval { $v .= pmver('Class::Method::Modifiers::Fast','any version') };
 eval { $v .= pmver('Config::JFDI','any version') };
@@ -68,14 +70,16 @@ eval { $v .= pmver('DateTime::Format::DB2','any version') };
 eval { $v .= pmver('DateTime::Format::DBI','any version') };
 eval { $v .= pmver('DateTime::Format::MySQL','any version') };
 eval { $v .= pmver('DateTime::Format::Pg','any version') };
+eval { $v .= pmver('Devel::Confess','any version') };
 eval { $v .= pmver('Directory::Scratch','any version') };
-eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
-eval { $v .= pmver('File::Slurp','9999.18') };
+eval { $v .= pmver('Dist::Zilla::App::Command::issues','any version') };
+eval { $v .= pmver('Dist::Zilla::PluginBundle::RSRCHBOY','any version') };
+eval { $v .= pmver('ExtUtils::MakeMaker','any version') };
 eval { $v .= pmver('File::Spec','any version') };
 eval { $v .= pmver('File::chdir','any version') };
-eval { $v .= pmver('Git::CPAN::Patch','any version') };
 eval { $v .= pmver('IO::Handle','any version') };
 eval { $v .= pmver('IPC::Open3','any version') };
+eval { $v .= pmver('L','any version') };
 eval { $v .= pmver('Moo','any version') };
 eval { $v .= pmver('MooX::Cmd','any version') };
 eval { $v .= pmver('MooX::Types::MooseLike','any version') };
@@ -99,7 +103,7 @@ eval { $v .= pmver('Test::CheckDeps','0.010') };
 eval { $v .= pmver('Test::Moose::More','0.017') };
 eval { $v .= pmver('Test::More','0.94') };
 eval { $v .= pmver('Test::Routine','0.015') };
-eval { $v .= pmver('Test::TempDir','any version') };
+eval { $v .= pmver('Test::TempDir::Tiny','any version') };
 eval { $v .= pmver('Try::Tiny','any version') };
 eval { $v .= pmver('V','any version') };
 eval { $v .= pmver('aliased','any version') };
@@ -114,6 +118,7 @@ eval { $v .= pmver('local::lib','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
 eval { $v .= pmver('opts','0.05') };
 eval { $v .= pmver('strict','any version') };
+eval { $v .= pmver('strictures','any version') };
 eval { $v .= pmver('warnings','any version') };
 
 

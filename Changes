@@ -1,8 +1,18 @@
 Revision history for Task-BeLike-RSRCHBOY
 
+0.006     2015-04-06 20:44:02 PDT-0700
+	* + App::Cmd
+	* + Devel::Confess
+	* + Dist::Zilla::App::Command::issues
+	* + Dist::Zilla::PluginBundle::RSRCHBOY
+	* + L
+	* - Git::CPAN::Patch (BackPAN::Index is broken, and we have the gitpan now)
+	* - File::Slurp
+	* long overdue additions, deletions
+
 0.005     2013-12-06 19:09:34 PST-0800
-    * add: App::cpanminus::reporter
-    * require autodie >= 2.22; add autobox::Colors
+	* add: App::cpanminus::reporter
+	* require autodie >= 2.22; add autobox::Colors
 	* add: Carp::Always
 	* add: Moo, MooX::Types::MooseLike, MooX::Cmd
 	* drop Moose::Autobox, as I'm more an autobox::Core kinda person
