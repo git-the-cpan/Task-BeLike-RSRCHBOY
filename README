@@ -4,7 +4,7 @@ NAME
 
 VERSION
 
-    version 0.006
+    version 0.007
 
 TASK CONTENTS
 
@@ -12,13 +12,9 @@ TASK CONTENTS
 
   local::lib
 
-  Pod::Cpandoc
-
   App::cpanminus::reporter
 
   App::cpanoutdated
-
-  App::cpanminus::reporter
 
   App::gh
 
@@ -26,9 +22,11 @@ TASK CONTENTS
 
   CPAN::Mini::Inject
 
-  Task::CPAN::Reporter
+  OrePAN2
 
   Pod::Cpandoc
+
+  Task::CPAN::Reporter
 
  DB bits
 
@@ -58,7 +56,7 @@ TASK CONTENTS
 
   common::sense
 
-  namespace::autoclean
+  namespace::autoclean 0.24
 
   strictures
 
@@ -76,11 +74,21 @@ TASK CONTENTS
 
   MooseX::App::Cmd
 
+  MooseX::AlwaysCoerce
+
+  MooseX::AttributeShortcuts
+
   MooseX::AutoDestruct 0.007
 
   MooseX::RelatedClasses
 
   MooseX::Types::Perl
+
+  MooseX::Types::LoadableClass
+
+  MooseX::Types::Path::Class
+
+  MooseX::Types::Path::Tiny
 
   Moo
 
@@ -89,8 +97,6 @@ TASK CONTENTS
   MooX::Cmd
 
  Testing
-
-  Directory::Scratch
 
   TAP::Harness::Restricted
 
@@ -124,13 +130,15 @@ TASK CONTENTS
 
   Capture::Tiny
 
+  Carp::Always
+
   Carp::Always::Color
 
   Config::JFDI
 
-  Carp::Always
-
   File::chdir
+
+  Path::Tiny
 
   Path::Class
 
@@ -156,13 +164,17 @@ TASK CONTENTS
 
   Devel::Confess
 
+  Dist::Zilla::App::Command::cover
+
   Dist::Zilla::App::Command::issues
+
+  Dist::Zilla::App::Command::gh
+
+  Dist::Zilla::App::Command::dumpwith
 
   Dist::Zilla::PluginBundle::RSRCHBOY
 
 SEE ALSO
-
-    Dist::Zilla::PluginBundle::RSRCHBOY
 
     Task::BeLike::RSRCHBOY::Web
 

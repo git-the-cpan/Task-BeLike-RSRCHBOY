@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.73.
+signed via the Module::Signature module, version 0.78.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,19 +15,19 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 55ac697642a18dd7d974736a3d06fd531aa82382 .travis.yml
-SHA1 65a67576582b50a0a96adada4df85934f7a8a13f Changes
+SHA1 c8300b7891f159ac8ea1bfee53bf349abf38b271 Changes
 SHA1 62c6886b1f14e9e9a39f6bf00f5490057d3c2885 LICENSE
 SHA1 4b6edf66ccd93f9dcd55e61657a46aaf35fef651 MANIFEST
-SHA1 e5cada508edadee4664a575c60c8e733b2783c4d META.json
-SHA1 3d15588a999b8cfc50bf7d3a2ff19de47a0b51b8 META.yml
-SHA1 8263987188bf52515d509c9bc5604ce54ce1a030 Makefile.PL
-SHA1 c1a11fd1c2fe140a8591daa426c904ccf40cbf9e README
-SHA1 021a87db9e93354d44c5768ba27f8e98f15f77b1 cpanfile
+SHA1 1afe91916fae27fdab902784643a2f7299b75d4e META.json
+SHA1 d67a96c3a9c6db57324af4c4ebe2525941722946 META.yml
+SHA1 c47c6ad9b117070f0f689c15b0fe31610be72670 Makefile.PL
+SHA1 e39090c1cf374c13f8d5a49ba24ad6da031bb317 README
+SHA1 233809dfcff79f67a6558e80529aa76a00aefa77 cpanfile
 SHA1 c0c92a2c7d8ab6b6a655bcdfda615231d310a259 dist.ini
-SHA1 5222524190e8f60637f37557d8ac4d71a80281c8 lib/Task/BeLike/RSRCHBOY.pm
+SHA1 2f4bbc687d1eac4c19a2e3dab3c39e3c7cfbf023 lib/Task/BeLike/RSRCHBOY.pm
 SHA1 c522c3928158e64bd97d34d20cbfe0b5305a7eb2 t/00-check-deps.t
-SHA1 7b4d8ce3f9d83b2ece8db22d22f149380adb16b1 t/00-compile.t
-SHA1 27760796d858f804bb7b2d38869839fdb9e58d36 t/000-report-versions-tiny.t
+SHA1 246329db23610e23814c6511cff1de1af06ab25b t/00-compile.t
+SHA1 0e8a3427c34e3be53f088f8f8d36c28ead45a671 t/000-report-versions-tiny.t
 SHA1 666cf5f8c47108d4c31a6b3e3cd37ae4d0bdca16 t/placeholder.t
 SHA1 7d690b456998978c3c05accacea7929995a381f2 xt/author/eol.t
 SHA1 af3abbe06dfb06b94282a261fa4da85751473e33 xt/author/no-tabs.t
@@ -41,17 +41,17 @@ SHA1 161e76b89be749bfa46d5497d75a488a46ea7e96 xt/release/pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBAgAGBQJVI1KGAAoJEJ/Rlq0N/NXWsa0P+wTBDqJrGdDSMOChXs2Ke4yz
-Ymo4kSBtxS2go9d6MYrxqIk5jslt3BimmQfAAth4toSYo7fhf+w6JsyPt7SaZ/dI
-WzB42n6CF3hvrbQKVZTKaAHyI35LFIY9HJiNeqIQmcmVtK76oQuasvNHuiD18rKx
-VT5L3lBbB/vIKHQ4hGpYxTMnHxbMGlvXbtZYJMAT7EDIjfZuMwbhkZYo+hyIeD9g
-zImDOdohmdOYtGvpzX0HjMuk6o/8RP8ebGxQkgLdtq7K2YhiGlNuGHwG6MGRIAKz
-7td68o3QoWix5rBJNUf3rZ/8rx6w7r61SJ2VTBdq3Bg70qbBaqim6mfV5iI+XXJf
-m4qi+GQYXZrjvcF34pP5O1+mzPXj8FyA3LeuPXrtyE8aR8K4w+IL3WZO42FA838D
-M4Rhsdua/2T8655XFnooH9fedjxGox7OpsYW38s6R4X9l++iGHBWODkglWm59/HM
-EZZ42kyM67uaUEzwZVE78vCVbZqFg429kfkhXf45oxghYEWl8hJqiLUc8E5LTE+i
-4mzNPI1LSBgH8bmSPhz9Twldgh17K5PJ12flBR2UtxtJJhUMaHNM/ukwUzliOlu0
-R5KpfFBlStHHI2Xc4VNzO7lQ7CwmK/C6uJnu+U99XfJpbKB9o2m6wXpPpSKqPv51
-EQk0edslYqoOw86OQXaZ
-=yFhW
+iQIcBAEBAgAGBQJVJ0epAAoJEJ/Rlq0N/NXWXGcP/1JVX6553kKWAfSNkX1KCw6K
+b68OPoigQM9LBBuwNBRD+cj1MM8rAPbtzFDrEf4+z/ZYyIWcB7fIPmQD4FHK7EQH
+/PbvFPH8XMzpda/OG1Z8cY8TTVEn2JU8fjAVkzD2gFbOCkBptbfUFhQAynqRVjXc
+PySMy+81cpMJCQDTfeL7FBf1HauohdkSEPHCr+Z/do1so89jYZiRhsM67E/Q4TWI
+C4cMxiAg5uhYIfO84nFKgmbARCo4lNPAen3HuB55RFgrWhAPVMfpf/dF8UV3mWJT
+Pwk8+2mqy6J7bASfJ7jYp+AmZIJEncV0x2s8C8VzEImsLvGc/Q/jCcg6aa0IvAY0
+eRwk05KMG/3YvImFatqu/SBrV+UL+RYgTgi877GaKJb1cCdw2cjgD80XysrYBHOR
+WLKiM9EEcIKbYAL44bv++x8+VTaVcIbG5FLdM/K0JZh6xh4QpQVgWbezxEzWbdzw
+OFV7GXfkPjUMOHHURlnPxUIc0DRvc/mWAKVEJUbSipkvzNIAD0hguI1RzIAd4ubl
+fd42pLqUz68QGkmWbOfysnpcZIbg4AECsBGoFcOTuvFv+VS6/B5y2Q4tvlVRcOj2
+VyNlJmYs/L0qUW1+UjXtQzqLDooeX2/znk+fI3W6Orma6Je7pgf2CgNi4121wVeW
+ZwQyyUbNk8LjCn5mmlWv
+=1elh
 -----END PGP SIGNATURE-----

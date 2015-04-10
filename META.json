@@ -10,7 +10,7 @@
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : 2
+      "version" : "2"
    },
    "name" : "Task-BeLike-RSRCHBOY",
    "no_index" : {
@@ -62,7 +62,9 @@
             "DateTime::Format::MySQL" : "0",
             "DateTime::Format::Pg" : "0",
             "Devel::Confess" : "0",
-            "Directory::Scratch" : "0",
+            "Dist::Zilla::App::Command::cover" : "0",
+            "Dist::Zilla::App::Command::dumpwith" : "0",
+            "Dist::Zilla::App::Command::gh" : "0",
             "Dist::Zilla::App::Command::issues" : "0",
             "Dist::Zilla::PluginBundle::RSRCHBOY" : "0",
             "File::chdir" : "0",
@@ -70,11 +72,18 @@
             "Moo" : "0",
             "MooX::Cmd" : "0",
             "MooX::Types::MooseLike" : "0",
+            "MooseX::AlwaysCoerce" : "0",
             "MooseX::App::Cmd" : "0",
+            "MooseX::AttributeShortcuts" : "0",
             "MooseX::AutoDestruct" : "0.007",
             "MooseX::RelatedClasses" : "0",
+            "MooseX::Types::LoadableClass" : "0",
+            "MooseX::Types::Path::Class" : "0",
+            "MooseX::Types::Path::Tiny" : "0",
             "MooseX::Types::Perl" : "0",
+            "OrePAN2" : "0",
             "Path::Class" : "0",
+            "Path::Tiny" : "0",
             "Perl::Critic" : "0",
             "Perl::Tidy" : "0",
             "Pod::Cpandoc" : "0",
@@ -100,7 +109,7 @@
             "common::sense" : "0",
             "lib::if::dev" : "0",
             "local::lib" : "0",
-            "namespace::autoclean" : "0",
+            "namespace::autoclean" : "0.24",
             "opts" : "0.05",
             "perl" : "5.006",
             "strictures" : "0"
@@ -122,7 +131,7 @@
    "provides" : {
       "Task::BeLike::RSRCHBOY" : {
          "file" : "lib/Task/BeLike/RSRCHBOY.pm",
-         "version" : "0.006"
+         "version" : "0.007"
       }
    },
    "release_status" : "stable",
@@ -137,7 +146,7 @@
          "web" : "https://github.com/RsrchBoy/task-belike-rsrchboy"
       }
    },
-   "version" : "0.006",
+   "version" : "0.007",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -161,7 +170,7 @@
                }
             },
             "name" : "@Filter/Git::NextVersion",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::ContributorsFromGit",
@@ -365,7 +374,7 @@
                }
             },
             "name" : "@Filter/Test::Compile",
-            "version" : "2.051"
+            "version" : "2.052"
          },
          {
             "class" : "Dist::Zilla::Plugin::NoSmartCommentsTests",
@@ -456,7 +465,7 @@
          {
             "class" : "Dist::Zilla::Plugin::CheckChangesHasContent",
             "name" : "@Filter/CheckChangesHasContent",
-            "version" : "0.007"
+            "version" : "0.008"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckPrereqsIndexed",
@@ -503,7 +512,7 @@
                }
             },
             "name" : "@Filter/Git::Check",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
@@ -532,7 +541,7 @@
                }
             },
             "name" : "@Filter/Git::Commit",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::CheckDeps",
@@ -546,10 +555,14 @@
                   "finder" : [
                      ":InstallModules"
                   ]
+               },
+               "Dist::Zilla::Role::ModuleMetadata" : {
+                  "Module::Metadata" : "1.000026",
+                  "version" : "0.003"
                }
             },
             "name" : "@Filter/CheckSelfDependency",
-            "version" : "0.010"
+            "version" : "0.011"
          },
          {
             "class" : "Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch",
@@ -567,7 +580,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : "1",
-                  "tag" : "0.006",
+                  "tag" : "0.007",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -577,7 +590,7 @@
                }
             },
             "name" : "@Filter/Git::Tag",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CommitBuild",
@@ -595,7 +608,7 @@
                }
             },
             "name" : "@Filter/Git::CommitBuild::Build",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CommitBuild",
@@ -613,7 +626,7 @@
                }
             },
             "name" : "@Filter/Git::CommitBuild::Release",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Push",
@@ -630,7 +643,7 @@
                }
             },
             "name" : "@Filter/Git::Push",
-            "version" : "2.031"
+            "version" : "2.033"
          },
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",

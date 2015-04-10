@@ -1,5 +1,17 @@
 Revision history for Task-BeLike-RSRCHBOY
 
+0.007     2015-04-09 20:46:43 PDT-0700
+	* + Dist::Zilla::App::Command::cover
+	* + Dist::Zilla::App::Command::gh
+	* + Dist::Zilla::App::Command::dumpwith
+	* = namespace::autoclean >= 0.24
+	* - Directory::Scratch
+	* + Path::Tiny
+	* + MooseX::Types::LoadableClass
+	* + MooseX::AttributeShortcuts
+	* + MooseX::AlwaysCoerce
+	* + OrePAN2
+
 0.006     2015-04-06 20:44:02 PDT-0700
 	* + App::Cmd
 	* + Devel::Confess

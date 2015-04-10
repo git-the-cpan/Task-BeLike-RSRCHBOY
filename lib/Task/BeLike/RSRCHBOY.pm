@@ -9,8 +9,8 @@
 #
 package Task::BeLike::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.005-11-ge5ef2c9
-$Task::BeLike::RSRCHBOY::VERSION = '0.006';
+# git description: 0.006-5-g297f19e
+$Task::BeLike::RSRCHBOY::VERSION = '0.007';
 
 # ABSTRACT: Modules RSRCHBOY uses!
 
@@ -28,7 +28,7 @@ Task::BeLike::RSRCHBOY - Modules RSRCHBOY uses!
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 TASK CONTENTS
 
@@ -36,13 +36,9 @@ version 0.006
 
 =head3 L<local::lib>
 
-=head3 L<Pod::Cpandoc>
-
 =head3 L<App::cpanminus::reporter>
 
 =head3 L<App::cpanoutdated>
-
-=head3 L<App::cpanminus::reporter>
 
 =head3 L<App::gh>
 
@@ -50,9 +46,11 @@ version 0.006
 
 =head3 L<CPAN::Mini::Inject>
 
-=head3 L<Task::CPAN::Reporter>
+=head3 L<OrePAN2>
 
 =head3 L<Pod::Cpandoc>
+
+=head3 L<Task::CPAN::Reporter>
 
 =head2 DB bits
 
@@ -82,7 +80,7 @@ version 0.006
 
 =head3 L<common::sense>
 
-=head3 L<namespace::autoclean>
+=head3 L<namespace::autoclean> 0.24
 
 =head3 L<strictures>
 
@@ -100,11 +98,21 @@ version 0.006
 
 =head3 L<MooseX::App::Cmd>
 
+=head3 L<MooseX::AlwaysCoerce>
+
+=head3 L<MooseX::AttributeShortcuts>
+
 =head3 L<MooseX::AutoDestruct> 0.007
 
 =head3 L<MooseX::RelatedClasses>
 
 =head3 L<MooseX::Types::Perl>
+
+=head3 L<MooseX::Types::LoadableClass>
+
+=head3 L<MooseX::Types::Path::Class>
+
+=head3 L<MooseX::Types::Path::Tiny>
 
 =head3 L<Moo>
 
@@ -113,8 +121,6 @@ version 0.006
 =head3 L<MooX::Cmd>
 
 =head2 Testing
-
-=head3 L<Directory::Scratch>
 
 =head3 L<TAP::Harness::Restricted>
 
@@ -148,13 +154,15 @@ version 0.006
 
 =head3 L<Capture::Tiny>
 
+=head3 L<Carp::Always>
+
 =head3 L<Carp::Always::Color>
 
 =head3 L<Config::JFDI>
 
-=head3 L<Carp::Always>
-
 =head3 L<File::chdir>
+
+=head3 L<Path::Tiny>
 
 =head3 L<Path::Class>
 
@@ -180,13 +188,17 @@ version 0.006
 
 =head3 L<Devel::Confess>
 
+=head3 L<Dist::Zilla::App::Command::cover>
+
 =head3 L<Dist::Zilla::App::Command::issues>
+
+=head3 L<Dist::Zilla::App::Command::gh>
+
+=head3 L<Dist::Zilla::App::Command::dumpwith>
 
 =head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
 
 =head1 SEE ALSO
-
-Dist::Zilla::PluginBundle::RSRCHBOY
 
 Task::BeLike::RSRCHBOY::Web
 
